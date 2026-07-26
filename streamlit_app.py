@@ -369,11 +369,12 @@ def create_csv(
 # AFFICHAGE
 # ============================================================
 
-st.title("🔎 Recherche exacte dans mes PDF")
+st.title("DOC-AI")
 
 st.caption(
-    "Le site copie toutes les phrases contenant vos mots-clés. "
-    "Il n'utilise aucun LLM et n'invente aucune réponse."
+    👋 Bienvenue !
+
+Sélectionnez un ou plusieurs fichiers PDF, saisissez vos mots-clés, et le site vous affichera toutes les phrases correspondantes avec le nom du fichier et le numéro de page.
 )
 
 uploaded_files = st.file_uploader(
