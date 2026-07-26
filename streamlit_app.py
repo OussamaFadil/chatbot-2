@@ -372,9 +372,9 @@ def create_csv(
 st.title("DOC-AI")
 
 st.caption(
-    👋 Bienvenue !
+    "👋 Bienvenue !"
 
-Sélectionnez un ou plusieurs fichiers PDF, saisissez vos mots-clés, et le site vous affichera toutes les phrases correspondantes avec le nom du fichier et le numéro de page.
+"Sélectionnez un ou plusieurs fichiers PDF, saisissez vos mots-clés, et le site vous affichera toutes les phrases correspondantes avec le nom du fichier et le numéro de page."
 )
 
 uploaded_files = st.file_uploader(
